@@ -1,0 +1,21 @@
+/**
+ * @component component-name
+ * @description Component description
+ * -----------------------------------------------------------------------------
+ */
+
+.c-header {
+
+  &__intro {
+    color: map-get($colors, "text-color");
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    max-width: 60rem;
+    margin: 7rem 0;
+  }
+
+  &__intro--info {
+    margin-bottom: 4rem;
+  }
+}

@@ -1,0 +1,19 @@
+/**
+ * @component component-name
+ * @description Component description
+ * -----------------------------------------------------------------------------
+ */
+
+.c-404 {
+
+  &__rooster {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 600px;
+    max-width: 80%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

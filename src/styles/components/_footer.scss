@@ -1,0 +1,39 @@
+/**
+ * @component component-name
+ * @description Component description
+ * -----------------------------------------------------------------------------
+ */
+
+.c-footer {
+  margin-top: 5rem;
+
+  &__list--home {
+    display: none;
+
+    @include media-above("sm") {
+      display: block;
+      float: right;
+    }
+  }
+
+  &__list--info {
+    margin-top: .5rem;
+
+    .c-footer__link:hover {
+      color: #fff;
+    }
+  }
+
+  &__item {
+    display: inline;
+
+    &:last-child:after {
+      content: "";
+    }
+
+    &:after {
+      content: " /";
+    }
+  }
+
+}

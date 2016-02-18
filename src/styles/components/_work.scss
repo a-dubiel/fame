@@ -1,0 +1,80 @@
+/**
+ * @component component-name
+ * @description Component description
+ * -----------------------------------------------------------------------------
+ */
+
+.c-work {
+  margin: 5rem 0 10rem;
+
+  &__title {
+    color: map-get($colors, "heading-color");
+  }
+
+  &__scope {
+    font-weight: 300;
+    color: map-get($colors, "text-color");
+  }
+
+  &__link {
+    color: map-get($colors, "heading-color");
+
+    &:hover {
+      font-weight: 500;
+    }
+
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      position: relative;
+      bottom: -1px;
+      margin-right: 5px;
+      background-image: url("../images/icon-external.svg");
+      background-size: 12px;
+      background-repeat: no-repeat;
+      transform: rotateZ(-45deg);
+
+    }
+  }
+
+  &__screens {
+    margin-top: 3rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  &__screen {
+    border: 1rem solid #fff;
+    width: 100%;
+    background-color: #e3e3e3;
+  }
+
+  &__screen--half {
+    width: 100%;
+    float: left;
+
+    @include media-above("sm") {
+      width: 50%;
+    }
+  }
+
+  &__img {
+    display: block;
+    transition: all .5s ease-in-out;
+    vertical-align: middle;
+
+    &.lazyload,
+    &.lazyloading {
+      opacity: 0;
+
+    }
+
+    &.lazyloaded {
+      opacity: 1;
+    }
+
+  }
+
+}

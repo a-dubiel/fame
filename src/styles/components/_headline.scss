@@ -1,0 +1,31 @@
+/**
+ * @component component-name
+ * @description Component description
+ * -----------------------------------------------------------------------------
+ */
+
+.c-headline {
+  position: relative;
+  font-size: 1.6rem;
+  margin: 3.5rem 0 2.5rem;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #ebebeb;
+    top: -1.5rem;
+    position: absolute;
+  }
+
+
+}
+
+.c-headline--white {
+  color: #fff;
+
+  &:before {
+    background-color: #fff;
+  }
+}

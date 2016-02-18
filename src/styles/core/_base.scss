@@ -1,0 +1,62 @@
+/**
+ * Core: Base
+ * -----------------------------------------------------------------------------
+ */
+// scss-lint:disable SelectorFormat
+body {
+  font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-rendering: optimizeSpeed;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: map-get($colors, "text-color");
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  background-color: map-get($colors, "bg-color");
+
+  &.has-info-opened {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: map-get($colors, "heading-color");
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+a {
+  color: map-get($colors, "text-color");
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+
+  &:hover {
+    color: map-get($colors, "heading-color");
+    font-weight: 300;
+  }
+
+  &:active,
+  &:focus {
+    outline: 0;
+  }
+}
+
+p {
+  color: map-get($colors, "text-color");
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 300;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

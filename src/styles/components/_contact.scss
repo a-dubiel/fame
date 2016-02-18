@@ -1,0 +1,17 @@
+/**
+ * @component component-name
+ * @description Component description
+ * -----------------------------------------------------------------------------
+ */
+
+.c-contact {
+
+  &__text,
+  &__link {
+    font-size: 1.6rem;
+  }
+
+  &__text--info {
+    margin-top: 2rem;
+  }
+}

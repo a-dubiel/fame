@@ -1,0 +1,15 @@
+/**
+ * @component component-name
+ * @description Component description
+ * -----------------------------------------------------------------------------
+ */
+
+.c-service {
+  display: block;
+  width: 20rem;
+  float: left;
+
+  @include media-above("sm") {
+    width: 22rem;
+  }
+}

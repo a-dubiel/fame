@@ -1,0 +1,15 @@
+/**
+ * @utility utility-name
+ * @description Utility description
+ * -----------------------------------------------------------------------------
+ */
+
+.u-clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.u-addBottom {
+  margin-bottom: 6rem;
+}

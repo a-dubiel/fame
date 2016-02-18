@@ -1,0 +1,17 @@
+/**
+ * @object object-name
+ * @description Object description
+ * -----------------------------------------------------------------------------
+ */
+
+.o-container {
+  max-width: get-breakpoint("horizontal", "xl");
+  margin: 4rem 0;
+  padding: 0 2rem;
+  position: relative;
+
+  @include media-above("sm") {
+    margin: 8rem 0 4rem;
+    padding: 0 5rem;
+  }
+}

@@ -1,0 +1,18 @@
+/**
+ * @component component-name
+ * @description Component description
+ * -----------------------------------------------------------------------------
+ */
+
+.c-logo {
+
+  &--footer {
+    height: 12px;
+    opacity: .25;
+    margin-top: 3px;
+  }
+
+  &__link {
+    outline: 0;
+  }
+}

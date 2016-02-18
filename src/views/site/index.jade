@@ -1,0 +1,138 @@
+extends ../extends/layout.jade
+
+block content
+  aside.c-info
+    div.o-container
+      a(href="index.html", class="c-logo__link")
+        img.c-logo(src="/images/logo-white.svg", alt="Logo")
+      h3.c-header__intro.c-header__intro--info We don't have any motto or manifesto nor do we think we are better than anyone else. We simply love what we do.
+      div.u-clearfix.u-addBottom  
+        div.c-service
+          h4.c-headline.c-headline--white Digital
+          ul.c-service__list
+            li.c-service__item Web + Mobile Design
+            li.c-service__item Web Development
+            li.c-service__item CMS
+            li.c-service__item E-Commerce
+            li.c-service__item Interaction Design
+            li.c-service__item User Experience
+        div.c-service
+          h4.c-headline.c-headline--white Brand + Identity
+          ul.c-service__list
+            li.c-service__item Brand Development
+            li.c-service__item Creative Strategy
+            li.c-service__item Logo + Identity
+            li.c-service__item Promotional Materials
+            li.c-service__item Brochures + Posters  
+      a.c-info__phone(href="tel:+48733382735") +48 733 382 735
+      ul.c-footer__list.c-footer__list--info
+        li.c-footer__item
+          a.c-footer__link(href="mailto:hello@itsfame.co") E-mail
+        li.c-footer__item
+          a.c-footer__link(href="http://instagram.com/itsfamestudio", target="_blank") Instagram
+        li.c-footer__item
+          a.c-footer__link(href="http://twitter.com/itsfamestudio", target="_blank") Twitter
+        li.c-footer__item
+          a.c-footer__link(href="http://dribbble.com/itsfamestudio", target="_blank") Dribbble
+  div.o-container
+    a.c-info__link.js-info(href="#")
+      span.c-info__icon
+      span.c-info__close
+    header.c-header
+      a(href="index.html", class="c-logo__link")
+        img.c-logo(src="/images/logo-black.svg", alt="Logo")  
+      h1.c-header__intro Fame is not-quite-fameous creative studio from Poland. We create digital experiences that can change your life for better.
+    h2.c-headline Recent Work
+    
+    section.c-work
+      h3.c-work__title #[a.c-work__link(href="http://icanswim.eu", target="_blank") I Can Swim] – #[span.c-work__scope Logo + Identity, Web Design, Web Development] 
+      div.c-work__screens.u-clearfix
+        div.c-work__screen.c-work__screen--full
+          img.c-work__img.lazyload(data-src="/images/work/icanswim-browser-lg.png", data-srcset="/images/work/icanswim-browser-sm.png 500w, /images/work/icanswim-browser-md.png 1000w, /images/work/icanswim-browser-lg.png 2000w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/icanswim-bcard-lg.png", data-srcset="/images/work/icanswim-bcard-sm.png 245w, /images/work/icanswim-bcard-md.png 490w, /images/work/icanswim-bcard-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/icanswim-mobile-lg.png", data-srcset="/images/work/icanswim-mobile-sm.png 245w, /images/work/icanswim-mobile-md.png 490w, /images/work/icanswim-mobile-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/icanswim-logo-lg.png", data-srcset="/images/work/icanswim-logo-sm.png 245w, /images/work/icanswim-logo-md.png 490w, /images/work/icanswim-logo-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/icanswim-rollup-lg.jpg", data-srcset="/images/work/icanswim-rollup-sm.jpg 245w, /images/work/icanswim-rollup-md.jpg 490w, /images/work/icanswim-rollup-lg.jpg 980w")
+    
+    section.c-work
+      h3.c-work__title #[a.c-work__link(href="http://mytello.com", target="_blank") MyTello] – #[span.c-work__scope Web Design, Web Development, UX] 
+      div.c-work__screens.u-clearfix
+        div.c-work__screen.c-work__screen--full
+          img.c-work__img.lazyload(data-src="/images/work/mytello-browser-lg.png", data-srcset="/images/work/mytello-browser-sm.png 500w, /images/work/mytello-browser-md.png 1000w, /images/work/mytello-browser-lg.png 2000w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/mytello-mobile-1-lg.png", data-srcset="/images/work/mytello-mobile-1-sm.png 245w, /images/work/mytello-mobile-1-md.png 490w, /images/work/mytello-mobile-1-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/mytello-mobile-2-lg.png", data-srcset="/images/work/mytello-mobile-2-sm.png 245w, /images/work/mytello-mobile-2-md.png 490w, /images/work/mytello-mobile-2-lg.png 980w")
+
+    section.c-work
+      h3.c-work__title #[a.c-work__link(href="http://dev.canvas.pl", target="_blank") Canvas] – #[span.c-work__scope Web Design, Web Development] 
+      p.c-work__notes On assignment for #[a(href="http://forinstudio.com", target="_blank") Forinstudio]
+      div.c-work__screens.u-clearfix
+        div.c-work__screen.c-work__screen--full
+          img.c-work__img.lazyload(data-src="/images/work/canvas-browser-lg.png", data-srcset="/images/work/canvas-browser-sm.png 500w, /images/work/canvas-browser-md.png 1000w, /images/work/canvas-browser-lg.png 2000w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/canvas-logo-lg.png", data-srcset="/images/work/canvas-logo-sm.png 245w, /images/work/canvas-logo-md.png 490w, /images/work/canvas-logo-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/canvas-mobile-lg.png", data-srcset="/images/work/canvas-mobile-sm.png 245w, /images/work/canvas-mobile-md.png 490w, /images/work/canvas-mobile-lg.png 980w")
+      
+    section.c-work
+      h3.c-work__title #[a.c-work__link(href="http://richarddeshantz.com", target="_blank") Richard Deshantz Restaurant Group] – #[span.c-work__scope Logo + Identity, Web Design, Web Development] 
+      div.c-work__screens.u-clearfix
+        div.c-work__screen.c-work__screen--full
+          img.c-work__img.lazyload(data-src="/images/work/deshantz-browser-lg.png", data-srcset="/images/work/deshantz-browser-sm.png 500w, /images/work/deshantz-browser-md.png 1000w, /images/work/deshantz-browser-lg.png 2000w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/deshantz-logo-lg.png", data-srcset="/images/work/deshantz-logo-sm.png 245w, /images/work/deshantz-logo-md.png 490w, /images/work/deshantz-logo-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/deshantz-mobile-lg.png", data-srcset="/images/work/deshantz-mobile-sm.png 245w, /images/work/deshantz-mobile-md.png 490w, /images/work/deshantz-mobile-lg.png 980w")
+      
+    section.c-work
+      h3.c-work__title #[a.c-work__link(href="http://pind.pitt.edu", target="_blank") Pittsburgh Institute For Neurodegenerative Diseases] – #[span.c-work__scope Logo + Identity, Web Design, Web Development] 
+      div.c-work__screens.u-clearfix
+        div.c-work__screen.c-work__screen--full
+          img.c-work__img.lazyload(data-src="/images/work/pind-browser-lg.png", data-srcset="/images/work/pind-browser-sm.png 500w, /images/work/pind-browser-md.png 1000w, /images/work/pind-browser-lg.png 2000w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/pind-logo-lg.png", data-srcset="/images/work/pind-logo-sm.png 245w, /images/work/pind-logo-md.png 490w, /images/work/pind-logo-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/pind-mobile-lg.png", data-srcset="/images/work/pind-mobile-sm.png 245w, /images/work/pind-mobile-md.png 490w, /images/work/pind-mobile-lg.png 980w")
+                  
+    section.c-work
+      h3.c-work__title #[a.c-work__link(href="http://anyapp.mobi", target="_blank") AnyApp] – #[span.c-work__scope Web Design, Web Development] 
+      div.c-work__screens.u-clearfix
+        div.c-work__screen.c-work__screen--full
+          img.c-work__img.lazyload(data-src="/images/work/any-browser-lg.png", data-srcset="/images/work/any-browser-sm.png 500w, /images/work/any-browser-md.png 1000w, /images/work/any-browser-lg.png 2000w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/any-logo-lg.png", data-srcset="/images/work/any-logo-sm.png 245w, /images/work/any-logo-md.png 490w, /images/work/any-logo-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/any-mobile-lg.png", data-srcset="/images/work/any-mobile-sm.png 245w, /images/work/any-mobile-md.png 490w, /images/work/any-mobile-lg.png 980w")
+          
+    section.c-work
+      h3.c-work__title Bttr – #[span.c-work__scope Mobile Design, UX, Concept] 
+      div.c-work__screens.u-clearfix 
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/bttr-mobile-1-lg.png", data-srcset="/images/work/bttr-mobile-1-sm.png 245w, /images/work/bttr-mobile-1-md.png 490w, /images/work/bttr-mobile-1-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/bttr-mobile-2-lg.png", data-srcset="/images/work/bttr-mobile-2-sm.png 245w, /images/work/bttr-mobile-2-md.png 490w, /images/work/bttr-mobile-2-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/bttr-mobile-3-lg.png", data-srcset="/images/work/bttr-mobile-3-sm.png 245w, /images/work/bttr-mobile-3-md.png 490w, /images/work/bttr-mobile-3-lg.png 980w")
+        div.c-work__screen.c-work__screen--half
+          img.c-work__img.lazyload(data-src="/images/work/bttr-mobile-4-lg.png", data-srcset="/images/work/bttr-mobile-4-sm.png 245w, /images/work/bttr-mobile-4-md.png 490w, /images/work/bttr-mobile-4-lg.png 980w")
+                        
+            
+    h2.c-headline Contact
+    p.c-contact__text Let's talk about your next project –
+    p.c-contact__text #[a.c-contact__link(href="hello@itsfame.co") hello@itsfame.co] / #[a.c-contact__link(href="tel:+48733382735") +48 733 382 735]
+    footer.c-footer
+      ul.c-footer__list--home
+        li.c-footer__item
+          a.c-footer__link(href="mailto:hello@itsfame.co") E-mail
+        li.c-footer__item
+          a.c-footer__link(href="http://instagram.com/itsfamestudio", target="_blank") Instagram
+        li.c-footer__item
+          a.c-footer__link(href="http://twitter.com/itsfamestudio", target="_blank") Twitter
+        li.c-footer__item
+          a.c-footer__link(href="http://dribbble.com/itsfamestudio", target="_blank") Dribbble
+      p.c-footer__copyright &copy; Fame
